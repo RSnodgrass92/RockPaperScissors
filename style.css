@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Lobster','Times New Roman', Times, serif;
+}
+h1{
+    font-size: 1.8em;
+    margin-bottom: 5vh;
+    margin-top: 2vh;
+    text-align: center;
+    text-decoration: underline;
+   
+}
+#container{
+   border: black solid;
+   border-radius:10px;
+   background: #ffea00;
+   width: 80%;
+   height: 75vh;
+   margin:auto;
+   margin-top: 20vh;
+   margin-bottom: 20vh;
+
+}
+#scores{
+    display: flex;
+}
+
+#images, #imglabels{
+    display:flex;
+    justify-content: space-around;
+}
+
+#btncontainer
+{
+    display:flex;
+    justify-content: space-around;
+}
+
+button{
+    color: white; 
+    background: #0015FF;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    font-size:0.8em;
+    position: relative;
+
+    margin-top: 10px;
+}
+#leftimg, #rightimg
+{
+    width:25vw;
+}
+
+#leftimglabel{
+    margin-right: 15vw;
+    margin-left: 5vw;
+    font-size:1.7em;
+    padding-left: 10vw;
+}
+#rightimglabel{
+    margin-left: 12vw;
+    margin-right: 15vw;
+    font-size:1.7em;
+}
+#leftimg{
+    transform: scaleX(-1);
+    margin-right: 5vw;
+    margin-left: 7vw;
+    max-height: 250px;
+    max-width:250px;
+}
+#rightimg{
+    margin-left: 5vw;
+    margin-right: 7vw;
+    max-height: 250px;
+    max-width:250px;
+}
+#playerscore{
+    margin-right: 8vw;
+    margin-left: 13vw;
+    font-size:1em;
+}
+
+#computerscore{
+    margin-left: 8vw;
+    margin-right: 0vw;
+    font-size:1em;
+}
+button:hover{
+    background: black;
+}
+body{
+    background: slategray;
+}
