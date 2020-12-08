@@ -7,7 +7,7 @@ let compScore=0;
 
 
 //images
-const imgArr=["../images/rockicon.png","../images/papericon.png","../images/scissorsicon.png"]
+const imgArr=["./images/rockicon.png","./images/papericon.png","./images/scissorsicon.png"]
 let leftImgPos=0;
 let rightImgPos=0;
 
